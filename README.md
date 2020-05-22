@@ -49,31 +49,38 @@
 
 - **Create a new page named “Star Wars Starships” and add it to the left menu of the
   dashboard.**<br/>
-  Created a menu item as mentioned, used the _Nucleo - spaceship_ icon
+  Created a menu item as mentioned, used the _Nucleo - spaceship_ icon<br/>
+  ![Menu](./Documentation/images/1_menu.png)
   
 - **Create a table to list Star Wars Starships with the 4 columns**<br/>
-  Used the same table from the Argon Dashboard “Tables view” example.<br/>
-  Loaded the data in the constructor using fetch api.
+  Used the same table from the Argon Dashboard “Tables view” example. Loaded the data in the constructor using fetch api.<br/>
   (Note: If we have more api interactions or for scalablity, we shall move the api calls separately (say, services/api/starship.js) and consume it).
   
 - **Consume the Star Wars Starships API endpoint and populate the table with the respective data.**<br/>
   For simplicity considered "Name" as the key/id, as the key/id is not available in the web API response data.<br/>
-  (But the best approach is to set some custom key/id using some tools like [uuid](https://www.npmjs.com/package/uuid)).
-  
+  (But the best approach is to set some custom key/id using some tools like [uuid](https://www.npmjs.com/package/uuid)).<br/>
+  ![Table](./Documentation/images/2_table.png)
 
 
 - **Add a button outside the table to create a new Starship and make it open a Bootstrap modal**<br/>
-Created a custom modal as a presentation component. This modal can be used for both creating and editing the Starship.
+Created a custom modal as a presentation component. This modal can be used for both creating and editing the Starship.<br/>
+  ![New Modal Dialog](./Documentation/images/3_newmodal.png)
 
-- **Make the modal “Create” button add a new Starship to the top of the table.**
+- **Make the modal “Create” button add a new Starship to the top of the table.**<br/>
+  ![Modal Filled](./Documentation/images/41_newFilled.png)<br/>
+  ![Row Added](./Documentation/images/42_newRow.png)
 
-- **Add a new column to the table which will contain an “Edit” button for each of the listed Starships.**
+- **Add a new column to the table which will contain an “Edit” button for each of the listed Starships.**<br/>
+  ![New Modal Dialog](./Documentation/images/51_edit.png)
 
 - **Make the “Edit” button load a Bootstrap modal with the same form structure as the create modal, but having an “Update” button instead of “Create”.**<br/>
-As I considered Name as the key/id, I made it as read-only.
+As I considered Name as the key/id, I made it as read-only.<br/>
+  ![Edit Modal](./Documentation/images/editModal.png)<br/>
 
-- **Make the modal “Update” button update the respective table row with the new data.**
+- **Make the modal “Update” button update the respective table row with the new data.**<br/>
+  ![Row Updated](./Documentation/images/editedRow.png)
 
 ### Additional Improvements
 - **Pagination**<br/>
-Implemented the pagination option for the table. During pagination, fresh copy of the data from the server is updated in the table.
+Implemented the pagination option for the table. During pagination, fresh copy of the data from the server is updated in the table.<br/>
+  ![Pagination](./Documentation/images/6_pagination.png)
