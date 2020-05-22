@@ -68,6 +68,7 @@ Created a custom modal as a presentation component. This modal can be used for b
   ![New Modal Dialog](./Documentation/images/3_newmodal.png)
 
 - **Make the modal “Create” button add a new Starship to the top of the table.**<br/>
+To have things simple, I didn't add any external packages. But we can include a Date Picker for changing the created date, this will be more user friendly.
   ![Modal Filled](./Documentation/images/41_newFilled.png)<br/>
   ![Row Added](./Documentation/images/42_newRow.png)
 
