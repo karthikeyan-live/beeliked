@@ -45,7 +45,8 @@
 9. Make the modal “Update” button update the respective table row with the new data.
 10. Be sure everything is working, review and refactor your code if needed.
 
-## About my Solution
+## About my Solution<br/><br/>
+  ![Menu](./Documentation/images/demo.gif)<br/><br/>
 
 - **Create a new page named “Star Wars Starships” and add it to the left menu of the
   dashboard.**<br/>
